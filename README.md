@@ -1,7 +1,7 @@
 # Tragada-- Função para marcar os inimigos e aliados com cores
 local function marcarJogadores()
     -- Para cada jogador no jogo
-    for _, jogador in pairs(game.Players:GetChildren()) do
+    for _, jogador in l.     pairs(game.Players:GetChildren()) do
         -- Verifica se o jogador está em uma equipe inimiga ou aliada (exemplo simples)
         if jogador.Team and jogador.Team.Name == "Inimigos" then
             -- Marca o jogador de vermelho (inimigo)
